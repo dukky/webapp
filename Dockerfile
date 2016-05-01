@@ -1,2 +1,4 @@
 FROM golang:onbuild
-COPY ./images /images
+WORKDIR /go/src/app
+
+
